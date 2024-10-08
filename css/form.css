@@ -1,0 +1,7 @@
+input:valid{
+    background:palegreen;
+    border-color:green;
+}
+input{
+    border-radius:5px;
+}
