@@ -12,37 +12,59 @@
 	    <div class="row mb-3 mt-2">
     	    	<label for="inputName" class="col-12 col-md-2">Name</label>
     	    	<div class="col-12 col-md-10">
-		    <input type="text" id="inputName" onkeypress="noNum(event)" class="col-12" placeholder="Enter your name" minlength="3">
+		    <input type="text" id="inputName" class="col-12" placeholder="Enter your name">
 		    <span id="name-error"></span>
 	    	</div>
   	    </div>
 	    <div class="row mb-3 mt-2">
     	    	<label for="inputNumber" class="col-12 col-md-2">Mobile</label>
     	    	<div class="col-12 col-md-10">
-		    <input type="tel" id="inputNumber" class="col-12" placeholder="Enter the number" minlength="10" maxlength="10">
-		    <div id="number-error"></div>
+		    <input type="tel" id="inputNumber" class="col-12" placeholder="Enter the number">
+		    <span id="number-error"></span>
 	    	</div>
   	    </div>
 	    <div class="row mb-3">
     	    	<label for="inputEmail" class="col-12 col-md-2">Email</label>
     	    	<div class="col-12 col-md-10">
 		    <input type="email" id="inputEmail" class="col-12" placeholder="Enter mail id">
-		    <div id="email-error"></div>
+		    <span id="email-error"></span>
 	    	</div>
+  	    </div>
+	    <div class="row mb-3">
+    	    	<label for="inputDOB" class="col-12 col-md-2">DOB</label>
+    	    	<div class="col-12 col-md-10">
+		    <input type="date" id="inputDOB" class="col-12">
+		    <span id="date-error"></span>
+	    	</div>
+  	    </div>
+	    <div class="row mb-3">
+    	    	<label for="inputAge" class="col-12 col-md-2">Age</label>
+    	    	<div class="col-12 col-md-10">
+		    <input type="number" id="inputAge" class="col-12" placeholder="Enter your age">
+		    <span id="age-error"></span>
+	    	</div>
+  	    </div>
+	    <div class="row mb-3">
+    	    	<label for="inputGender" class="col-12 col-md-2">Gender</label>
+    	    	<div class="col-12 col-md-10">
+		    <input type="radio" id="male" class="" name="gender">Male
+		    <input type="radio" id="female" class="ms-3" name="gender">Female
+		    <span id="gender-error" class="d-flex col-12"></span>
+	    	</div>
+
   	    </div>
   	    <div class="row mb-3">
     	   	<label for="inputPass" class="col-12 col-md-2">Password</label>
     	    	<div class="col-12 col-md-10">
-		    <input type="password" id="inputPass" class="col-12">
-		    <div id="pass-error"></div>
+		    <input type="password" id="inputPass" class="col-12" placeholder="Enter the password">
+		    <span id="pass-error"></span>
 	    	</div>
   	    </div>
-
 	    <div class="row mb-3">
     	   	<label for="inputCPass" class="col-12 col-md-2">Confirm Password</label>
     	    	<div class="col-12 col-md-10">
-		    <input type="password" id="inputCPass" class="col-12">
-		    <div id="c-pass-error"></div>
+		    <input type="password" id="inputCPass" class="col-12" placeholder="Re-Enter the password">
+		    <span id="c-pass-error"></span>
 	    	</div>
   	    </div>		
 
